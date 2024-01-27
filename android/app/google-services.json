@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "17814927892",
+    "project_id": "premiumchat-2d4eb",
+    "storage_bucket": "premiumchat-2d4eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:17814927892:android:379befb6982356813a8501",
+        "android_client_info": {
+          "package_name": "com.example.premiumchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb5qMkKPUdJcO3l3u9ZnmNceAqRvhHjqU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
