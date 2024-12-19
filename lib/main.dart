@@ -3,11 +3,10 @@ import 'package:premiumchat/firstScreenLook/startScreen.dart';
 import 'package:premiumchat/navigator/accountnav.dart';
 
 import 'package:premiumchat/pages/home.dart';
+import 'package:premiumchat/pages/signin.dart';
 import 'package:premiumchat/pages/signup.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:premiumchat/service/auth.dart';
-import 'package:premiumchat/upcoming_updates/appbar_update.dart';
-import 'package:premiumchat/upcoming_updates/bottom_navigation_update.dart';
 
 import 'firebase_options.dart';
 

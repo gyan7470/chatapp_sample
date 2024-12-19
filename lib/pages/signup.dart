@@ -79,11 +79,9 @@ class _SignUpState extends State<SignUp> {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      physics:BouncingScrollPhysics(),
-      child: Scaffold(
-        //resizeToAvoidBottomInset: false,
-        body: Container(
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: Container(
           child: Stack(
             children: [
               SingleChildScrollView(
@@ -289,10 +287,7 @@ class _SignUpState extends State<SignUp> {
                                     ),
                                     GestureDetector(
                                       onTap: () {
-                                        Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                                builder: (context) => SignIn()));
+                                        Navigator.push(context, MaterialPageRoute(builder: (context)=> SignIn()));
                                       },
                                       child: Text(
                                         " Sign In Now!",

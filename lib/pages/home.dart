@@ -7,7 +7,6 @@ import 'package:premiumchat/service/database.dart';
 import 'package:premiumchat/service/shared_pref.dart';
 
 import '../navbar.dart';
-import '../upcoming_updates/bottom_navigation_update.dart';
 
 
 class Home extends StatefulWidget {
@@ -115,7 +114,6 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      //bottomNavigationBar:MainNavigator(),
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.grey.shade300,
 
